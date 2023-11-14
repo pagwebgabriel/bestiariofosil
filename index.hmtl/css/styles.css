@@ -1,0 +1,36 @@
+p {color: rgb(68, 0, 255);}
+
+body {margin: 350px;
+      height: 900px;
+      padding: 0;
+      background: url(/imags/fondodelindex.png);
+      background-size: cover;
+      background-position: unset;
+      font-family: sans-serif; 
+}
+mi.video {
+    position: fixed;
+    width: 30;
+    height: 30;
+    z-index: 0;
+}   
+.div_con_texto{
+    margin:14% 15% 30%;
+    padding: 5%;
+    background-color: black;
+    z-index: 1;}
+a{display: block;
+    width: 220px;
+    font-family:fantasy;
+    font-weight:50px;
+    border-radius: 10px;
+    margin: 5px 4px;
+    padding: 20px 10px;
+    background-color:rgb(255, 230, 6) ;
+    color:black;
+    }   
+    a:hover{
+        background-color: transparent ;
+        border: 2px solid rgb(255, 230, 6);
+        color: rgb(255, 230, 6);
+    }
